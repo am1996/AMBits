@@ -19,6 +19,9 @@
     <!-- Styles -->
     <link href="{{ asset("css/fontAwsome.min.css") }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @livewireStyles
+    @livewireScripts
+    <script src="{{ asset('js/turbolinks.extra.js') }}" defer></script>
 </head>
 <body>
     <div id="app">
